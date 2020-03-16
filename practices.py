@@ -13,16 +13,12 @@ say_hi(input("enter your name: "))
 """
 def square(num):
     return num*num
-
-results = square(int(input('Enter a value, we calculate its Square: ')))
-
+num = int(input('Enter a value, we calculate its Square: '))
+results = square(num)
 # errror
-
 # num = square(num)
-# print("The square of " + num + " " + results)
-
-
-print(results)
+print("The square of " + str(num) + " is " + str(results))
+# print(results)
 """
 
 # 04 If '''finding the maximum value'''
